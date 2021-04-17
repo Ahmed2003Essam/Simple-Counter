@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: lightblue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    -90deg,
+    lightblue,
+    rgb(100, 99, 99)
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    -90deg,
+    lightblue,
+    rgb(100, 99, 99)
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    -90deg,
+    lightblue,
+    rgb(100, 99, 99)
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, lightblue, rgb(100, 99, 99)); /* Standard syntax */
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.buttons-increase-dearcrease{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: 100px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons-increase-dearcrease:hover{
+  background-color: blue;
+}
+
